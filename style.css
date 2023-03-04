@@ -11,3 +11,18 @@
     display: flex;
     align-items: center;
 }
+
+.row {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.col {
+    flex-basis: 30%
+}
+.col img {
+    width: 100%;
+}
