@@ -40,7 +40,7 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: -20%;
+    bottom: -25%;
 }
 
 .info h1{
@@ -48,17 +48,24 @@
 }
 
 .info p{
-    font-weight: 12px;
+    font-weight: 100;
     margin: 6px 0;
 }
 
+.icons {
+    max-height: 0;
+    overflow: hidden;
+    transition: ease 1s;
+}
+
+.col:hover .icons{
+    max-height: 100px;
+    
+}
 .icons span {
     font-size: 20px;
     cursor: pointer;
-}
-
-.icons span i {
-    margin: 40px 0px;
+    padding: 10px 8px;
 }
 
 .ri-facebook-circle-fill{
@@ -73,15 +80,15 @@
     
 }
 
-/*
 .ri-instagram-line{
     border-radius: 20%;
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
 }
-*/
     
  
-
+.pic{
+    filter: grayscale(100%);
+}
 
 
 
