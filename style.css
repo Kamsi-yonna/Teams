@@ -21,7 +21,8 @@
 }
 
 .col {
-    flex-basis: 30%
+    flex-basis: 30%;
+    position: relative;
 }
 .col img {
     width: 100%;
@@ -32,16 +33,54 @@
     padding:15px 0px;
     text-align: center;
     box-sizing: border-box;
-    border-radius: 3opx;
+    border-radius: 2%;
     background: #001115;
     color: #fff;
+    
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -20%;
 }
 
+.info h1{
+    font-weight: 500;
+}
 
+.info p{
+    font-weight: 12px;
+    margin: 6px 0;
+}
 
+.icons span {
+    font-size: 20px;
+    cursor: pointer;
+}
 
+.icons span i {
+    margin: 40px 0px;
+}
 
+.ri-facebook-circle-fill{
+    color: #3b5998;
+    border-radius: 20%;
+    
+}
 
+.ri-twitter-fill{
+    color: #00acee;
+    border-radius: 20%;
+    
+}
+
+/*
+.ri-instagram-line{
+    border-radius: 20%;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+*/
+    
+ 
 
 
 
